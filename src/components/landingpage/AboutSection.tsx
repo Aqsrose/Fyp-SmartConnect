@@ -4,7 +4,7 @@ function AboutSection() {
   return (
     <section
       id="AboutSection"
-      className="h-screen bg-white flex items-center justify-center"
+      className="h-screen bg-white flex items-center justify-center ml-8 md:ml-60"
     >
       <div className="max-w-[440px] m-auto">
         <div className="mt-[-400px] ml-16 ">

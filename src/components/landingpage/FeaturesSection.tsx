@@ -4,12 +4,12 @@ function FeaturesSection() {
   return (
     <section
       id="FeaturesSection"
-      className="h-screen bg-white flex items-center justify-center"
+      className="h-screen bg-white flex items-center justify-center ml-12 md:mt-60 md:ml-[-10px]"
     >
       <div className="max-w-[440px] m-auto">
         <div className="ml-[-300px] mt-10">
           <img
-            className="md:w-80 px-4 pt-3 pb-2 animate-spin hidden md:block lg:block"
+            className="md:w-80  px-4 pt-3 pb-2 animate-spin hidden  lg:block"
             src="/images/circle.svg"
             alt="logo"
           />
@@ -18,7 +18,7 @@ function FeaturesSection() {
           <h1 className="bg-gradient-to-r from-red-500 to-purple-500 bg-clip-text text-transparent   text-3xl lg:text-7xl mr-[-200px]">
             Discover Our Unique Features
           </h1>
-          <p className="text-orange-400  text-sm md:text-1xl md:ml-14 lg:ml-5 mb-4  mr-[-200px]">
+          <p className="text-orange-400  text-sm md:text-1xl md:ml-14 lg:ml-5 mb-4  mr-[-90px]">
             Our features are designed to provide you with the best possible
             decentralizes experience
           </p>

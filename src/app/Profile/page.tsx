@@ -5,7 +5,7 @@ function Profile() {
   return (
     <section id="Home">
       <Headerpage />
-      <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44">
+      <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44 pb-48">
         <div className="bg-blue-200 h-32 rounded-md mb-4"></div>
 
         <div className="flex items-center justify-center">

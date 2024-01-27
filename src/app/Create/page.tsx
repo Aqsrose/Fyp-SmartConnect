@@ -5,28 +5,20 @@ function Create() {
   return (
     <section id="Home">
       <Headerpage />
-      <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44">
-        <div className="bg-blue-200 h-32 rounded-md mb-4"></div>
+      <div className=" p-8 bg-white rounded-lg shadow-sm border border-gray-200 pb-52 md:pb-80 w-90 md:ml-60 tb:ml-40 tb:mr-10">
+        <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44">
+          <div className=" h-32 rounded-md mb-4 border border-gray-200"></div>
 
-        <div className="flex items-center justify-center">
-          <div className="w-20 h-20 bg-white rounded-full overflow-hidden">
-            <img
-              src="/Images/landing-image.png"
-              alt="Profile"
-              className="w-full h-full object-cover"
-            />
+          <div className="text-center mt-4">
+            <button className="bg-red-500 text-white px-4 py-2 rounded">
+              start creating posts
+            </button>
           </div>
         </div>
-
-        <div className="text-center mt-4">
-          <h2 className="text-xl font-bold">John Doe</h2>
-          <p className="text-gray-500">@john_doe</p>
-          <p className="text-sm text-gray-700 mt-2">
-            Software Developer | React Enthusiast
-          </p>
-        </div>
       </div>
-      <Navbar />
+      <div className=" md:mt-[-35px] tb:mt-[-35px] lg:mt-[-25px]">
+        <Navbar />
+      </div>
     </section>
   );
 }

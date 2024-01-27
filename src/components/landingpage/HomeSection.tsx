@@ -4,7 +4,7 @@ function HomeSection() {
   return (
     <section
       id="HomeSection"
-      className="h-screen bg-white flex items-center justify-center "
+      className="h-screen bg-white flex items-center justify-center ml-20 "
     >
       <div className="max-w-[440px] m-auto">
         <div className="ml-[-200px] mt-16">

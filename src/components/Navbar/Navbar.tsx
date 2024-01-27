@@ -3,7 +3,7 @@ import Link from "next/link";
 
 function Navbar() {
   return (
-    <nav className="bg-white p-4 text-black shadow-md mt-[190px] tb:fixed  tb:left-0 tb:h-full tb:flex tb:flex-col tb:items-center md:fixed md:mt-[-320px] tb:mt-[-320px] md:left-0 md:h-full md:flex md:flex-col md:items-center border border-[#e0e0e0]">
+    <nav className="bg-white p-4 text-black shadow-md mt-[2px] tb:fixed  tb:left-0 tb:h-full tb:flex tb:flex-col tb:items-center md:fixed md:mt-[-510px] tb:mt-[-510px] lg:mt-[-510px] md:left-0 md:h-full md:flex md:flex-col md:items-center border border-[#e0e0e0]">
       <ul className="flex flex-row md:flex-col tb:flex-col space-x-16 md:space-x-0 tb:space-x-0 md:space-y-4 md:mr-3 tb:space-y-4 ml-4 md:ml-2 tb:ml-[-20px] tb:mr-[-15px]">
         <li>
           <Link href="/Home">
@@ -60,7 +60,6 @@ function Navbar() {
 
       <div className="hidden md:block md:mt-64">
         <Link href="/landingpage">
-          {" "}
           <button className="bg-red-500 text-white px-4 py-2 rounded">
             Logout
           </button>
