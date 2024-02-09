@@ -5,11 +5,16 @@ function Create() {
     <Layoutpage>
       <section id="Home">
         <div className=" p-8 bg-white rounded-lg shadow-sm border border-gray-200 pb-52 md:pb-80 w-90 md:ml-60 tb:ml-40 tb:mr-10">
-          <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44">
+          <div className="bg-whitep-4">
             <div className=" h-32 rounded-md mb-4 border border-gray-200"></div>
             <div className="text-center mt-4">
               <button className="bg-red-500 text-white px-4 py-2 rounded">
-                start creating posts
+                 create posts
+              </button>
+            </div>
+            <div className="text-center mt-4">
+              <button className="bg-green-500 text-white px-4 py-2 rounded">
+                 create NFT
               </button>
             </div>
           </div>

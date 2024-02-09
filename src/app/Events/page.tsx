@@ -5,7 +5,7 @@ function Events() {
     <Layoutpage>
       <section id="Explore">
         <div className=" p-8 bg-white rounded-lg shadow-sm border border-gray-200 pb-52 md:pb-80 w-90 md:ml-60 tb:ml-40 tb:mr-10">
-          <div className="bg-whitep-4 pl-2 tb:pl-32 pr-3 md:pl-44">
+          <div className="bg-whitep-4">
             <div className=" h-32 rounded-md mb-4"></div>
             <div className="text-center mt-4">
               <p className="text-sm text-gray-700 mt-2">
