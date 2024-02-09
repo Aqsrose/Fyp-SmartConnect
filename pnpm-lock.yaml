@@ -11,6 +11,9 @@ dependencies:
   '@fortawesome/fontawesome-svg-core':
     specifier: ^6.5.1
     version: 6.5.1
+  lucide:
+    specifier: ^0.323.0
+    version: 0.323.0
   lucide-react:
     specifier: ^0.316.0
     version: 0.316.0(react@18.2.0)
@@ -2132,6 +2135,10 @@ packages:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0
     dependencies:
       react: 18.2.0
+    dev: false
+
+  /lucide@0.323.0:
+    resolution: {integrity: sha512-7LBupKOYKOIKvJ1vCAzwuDY4IVM57Z+KEQqeeXmIAQxUV33N76uI+ctITd8gnA1RMyUWpL1FmdoMpXf+seeGBA==}
     dev: false
 
   /map-obj@4.3.0:

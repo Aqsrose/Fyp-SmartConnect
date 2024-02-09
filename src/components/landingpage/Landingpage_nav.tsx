@@ -56,7 +56,7 @@ function Landingpage_nav(props: LandingPageNavProps) {
   };
 
   return (
-    <header className="min-w-[26rem] tb:mr-[-100px] mr-[-100px]">
+    <header className="min-w-[26rem] tb:mr-[-100px] mr-[-100px] lg:mr-0">
       <div
         className={
           header
