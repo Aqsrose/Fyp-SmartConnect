@@ -7,7 +7,7 @@ function Layoutpage({ children }){
           <Navbar />
           <div className="flex-1">
             <Header />
-            <main className="pt-32 tb:pl-10 md:pl-10">{children}</main>
+            <main className="pt-32 tb:pl-1 md:pl-10">{children}</main>
           </div>
         </div>
       );
