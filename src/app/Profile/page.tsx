@@ -19,7 +19,9 @@ function Profile() {
   const handleProfilePhotoChange = (event) => {
     const file = event.target.files[0];
     if (file) {
-      setProfilePhoto(URL.createObjectURL(file));
+      const fileURL = URL.createObjectURL(file);
+    setProfilePhoto(fileURL);
+    localStorage.setItem('profilePhoto', fileURL);
     }
   };
 

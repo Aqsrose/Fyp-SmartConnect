@@ -12,6 +12,9 @@ const config: Config = {
         sb:"292px",
         sbb:"356px",
         tb: "407px",
+        tbbb:"510px",
+        tbb:"650px",
+        mdd:"1024px"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

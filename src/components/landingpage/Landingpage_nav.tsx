@@ -2,6 +2,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Logo from "./Logo";
+import { SmallLogo } from "./Logo";
 import Link from "next/link";
 
 type LandingPageNavProps = {};
@@ -66,31 +67,43 @@ function Landingpage_nav(props: LandingPageNavProps) {
       >
         <nav className="pt-5 mt-0 flex justify-between w-[100%] mx-auto rounded-xl ">
           <Link href="#GetStarted" scroll={true}>
-            <Logo />
+            <div className="hidden tb:block md:block xl:block">
+              <Logo />
+            </div>
+          </Link>
+          <Link href="#GetStarted" scroll={true}>
+            <div className="w-14 h-14 tb:hidden md:hidden xl:hidden tbb:hidden ">
+              <SmallLogo/>
+            </div>
           </Link>
 
-          <div className="md:block ">
-            <ul className="gap-[10px] text-lg space-x-4 md:text-lg mt-3 flex md:space-x-4 tb:mr-0  tb:space-x-4 lg:space-x-8 xl:space-x-10 md:mr-4 xl:mr-6">
+          <div className="md:block">
+            {/* <ul className="gap-[10px] text-lg space-x-4 md:text-lg mt-3 flex md:space-x-4 tb:mr-0  tb:space-x-4 lg:space-x-8 xl:space-x-10 md:mr-4 xl:mr-6"> */}
+             <ul className="text-[12px] tb:text-[14px] tbb:text-[16px] tb:space-x-2 tbb:space-x-4 mt-4 tb:mt-5 flex mr-40 sb:mr-2  md:text-lg md:space-x-6 lg:space-x-8 xl:space-x-10 md:mr-30 mdd:mr-4">
+             <p className=" md:hidden xl:hidden tbb:hidden">|</p>
               <li
                 onClick={() => handleSmoothScroll("HomeSection")}
-                className="cursor-pointer hover:text-[#85b3b6]"
+                className="cursor-pointer hover:text-[#85b3b6] mr-2 "
               >
                 Introduction
               </li>
+              <p className=" md:hidden xl:hidden tbb:hidden">|</p>
               <li
                 onClick={() => handleSmoothScroll("FeaturesSection")}
-                className="cursor-pointer hover:text-[#85b3b6]"
+                className="cursor-pointer hover:text-[#85b3b6] mr-1"
               >
                 What's new?
               </li>
+              <p className=" md:hidden xl:hidden tbb:hidden">|</p>
               <li
                 onClick={() => handleSmoothScroll("AboutSection")}
-                className="cursor-pointer hover:text-[#85b3b6]"
+                className="cursor-pointer hover:text-[#85b3b6] mr-1"
               >
                 About us
               </li>
+              <p className=" md:hidden xl:hidden tbb:hidden">|</p>
               <Link href="/SignInpage">
-                <li className="cursor-pointer hover:text-[#85b3b6] rounded-xl hover:scale-110 duration-300">
+                <li className="cursor-pointer hover:text-[#85b3b6] rounded-xl hover:scale-110 duration-300 mr-2 tb:mr-2">
                   Sign In
                 </li>
               </Link>
