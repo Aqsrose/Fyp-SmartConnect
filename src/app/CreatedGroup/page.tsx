@@ -2,6 +2,8 @@
 import React, { useState, useRef } from "react";
 import { Camera,Lock } from "lucide-react";
 import Layoutpage from "@/components/Navbar/Layout";
+import GroupLinks from "@/components/Group/GroupLinks";
+import Link from "@/components/Group/LinkContainer";
 
 function CreatedGroup(){
     const [coverPhoto, setCoverPhoto] = useState(null);
@@ -20,6 +22,7 @@ function CreatedGroup(){
 
     return(
         <Layoutpage>
+          <div className="">
         <div className="bg-white -mt-6 pt-0 p-4 pl-2 tb:pl-32 pr-3 md:pl-64 md:pr-20">
         <div className="w-full h-72 rounded-md  relative bg-gray-100">
           {coverPhoto && (
@@ -44,7 +47,7 @@ function CreatedGroup(){
           />
         </div>
 
-        <div className="-mt-14">
+        <div className="-mt-14 shadow-sm overflow-hidden">
           <p className="text-xl text-gray-700 mt-16 ml-5 text-bold-xl ">
            Explore Nature
           </p>
@@ -58,7 +61,7 @@ function CreatedGroup(){
           </p>
           </div>
           <div className="flex">
-          <div className="w-10 h-10 bg-gray-100 rounded-full ml-5  border-2 border-white relative ">
+          <div className="w-10 h-10 bg-gray-100 rounded-full ml-5  border-2 border-white relative mb-4">
             <img
               src=''
               alt="Profile"
@@ -95,6 +98,9 @@ function CreatedGroup(){
                 Share
               </button>
             </div>
+        <GroupLinks/>
+        <Link/>
+      </div>
       </div>
       </Layoutpage>
     )
